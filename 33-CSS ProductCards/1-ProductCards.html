@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürün Kartları</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .card {
+            margin: 20px;
+            width:40%;
+            box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+
+            -webkit-transition: box-shadow 0.3s;
+            transition: box-shadow 0.3s;
+        }
+
+        .card-image {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+
+            -webkit-transition: opacity 0.7s ease;
+            transition: opacity 0.7s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .card-image:hover {
+            opacity: 0.9;
+        }
+
+        .card-body {
+            padding: 2px 16px;
+            text-align: center;
+        }
+
+        .card-title {
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="../resimler/cicek.jpg" alt="" class="card-image">
+        <div class="card-body">
+            <h4 class="card-title">
+                Card Title
+            </h4>
+            <p class="card-text">
+                Card Body
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: red;
+            text-align: center;
+        }
+
+        .item {
+            background-color: chocolate;
+            padding: 30px;
+            margin: 30px;
+            color: #fff;
+            font-size: 25px;
+        }
+
+        /* flex-wrap: wrap; */
+        .container_wrap {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #f2f2f2;
+            padding: 15px;
+        }
+
+        /* flex-wrap: nowrap; */
+        .container_nowrap {
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: #f2f2f2;
+            padding: 15px;
+        }
+
+        /* flex-wrap: wrap-reverse; */
+        .container_wrap-reverse {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            background-color: #f2f2f2;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>flex-wrap:wrap;</h1>
+    <div class="container_wrap">
+
+        <div class="item">item 1</div>
+        <div class="item">item 3</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+
+    </div>
+    <br>
+    <hr>
+
+    <h1>flex-wrap:nowrap;</h1>
+    <div class="container_nowrap">
+
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+
+    </div>
+    <br>
+    <hr>
+
+    <h1>flex-wrap:wrap-reverse;</h1>
+    <div class="container_wrap-reverse">
+
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+
+    </div>
+    <br>
+    <hr>
+</body>
+
+</html>

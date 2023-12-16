@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        h1{
+            text-align: center;
+            color: red;
+            font-size: 24px;
+        }
+        /* blur özelliği*/
+        .blur{
+            width: 100%;
+            filter: blur(20px);
+        }
+
+        .blur:hover{
+            filter: blur(0px);
+        }
+
+        /* brightness  özelliği*/
+        .brightness {
+            width: 100%;
+            filter: brightness(.5);
+        }
+
+        .grayscale:hover{
+            filter: grayscale(100%);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Blur Özelliği</h1>
+    <img class="blur" src="../resimler/5.jpg" alt="">
+    <br>
+    <hr>
+
+    <h1>Brightness  Özelliği</h1>
+    <img class="brightness " src="../resimler/5.jpg" alt="">
+    <br>
+    <hr>
+
+    <h1>grayscale Özelliği</h1>
+    <img class="grayscale" src="../resimler/5.jpg" alt="">
+    <br>
+    <hr>
+</body>
+
+</html>

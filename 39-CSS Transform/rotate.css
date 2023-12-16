@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.kutu{
+	position: absolute;
+	left: 300px;
+	top: 300px;
+	padding: 10px 50px;
+	background: #C3C3C3;
+	display:inline-block;
+	transition: transform 1s ease-in-out, background-color 1s ease;
+	transform-origin: 50% 50%;
+}
+.kutu:hover{
+	transform: rotateX(70deg) rotateY(70deg);
+	
+	background: #FFB2B3;
+}
+h2{
+	font-size: 30px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}

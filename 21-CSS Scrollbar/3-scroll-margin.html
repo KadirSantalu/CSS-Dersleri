@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        html,
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            scroll-behavior: smooth;
+            /*bağlantıya tıkladığında sayfanın ilgili bölümüne yavaşça kayar. */
+        }
+
+        nav {
+            background-color: rebeccapurple;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            line-height: 50px;
+            display: inline-block;
+            text-decoration: none;
+            padding: 0 20px;
+            color: #fff;
+        }
+
+        section {
+            scroll-margin-top: 50px;
+            /*scroll-margin-top özelliği sayesinde kaydırma çubuğunun üst kenarını belirli bir mesafeyle uzatabilir veya kısaltabilirsiniz*/
+            height: calc(100vh - 50px);
+        }
+
+        #home {
+            background-color: chocolate;
+        }
+
+        #about {
+            background-color: darkkhaki;
+        }
+
+        #blog {
+            background-color: darkslategrey;
+        }
+
+        #contact {
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#home">Anasayfa</a>
+        <a href="#about">Hakkında</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">İletişim</a>
+    </nav>
+
+    <section id="home">
+        Home page
+    </section>
+
+    <section id="about">
+        About page
+    </section>
+
+    <section id="blog">
+        Blog page
+    </section>
+
+    <section id="contact">
+        Contact page
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .kapsayici{
+            width: 240px;
+            height: 200px;
+            margin: 10px;
+            float: left;
+        }
+
+        .on{
+            position: absolute;
+            width: 240px;
+            height: 200px;
+            border-radius: 7px;
+            transform: perspective(500px) rotateY(0deg);
+            backface-visibility: hidden;
+            background-color: blanchedalmond;
+            transition: transform 1s linear;
+        }
+
+        .arka{
+            position: absolute;
+            width: 240px;
+            height: 200px;
+            border-radius: 7px;
+            transform: perspective(500px) rotateY(180deg);
+            backface-visibility: hidden;
+            transition: transform 1s linear;
+            background-color: aqua;
+        }
+
+        .kapsayici:hover .on{
+            transform: perspective(500px) rotateY(-180deg);
+        }
+
+        .kapsayici:hover .arka{
+            transform: perspective(500px) rotateY(0deg);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="kapsayici">
+        <div class="arka">asdasd</div>
+        <div class="on"></div>
+    </div>
+    <div class="kapsayici">
+        <div class="arka">asdasdasd</div>
+        <div class="on"></div>
+    </div>
+    <div class="kapsayici">
+        <div class="arka"></div>
+        <div class="on">asdasdasd</div>
+    </div>
+</body>
+</html>

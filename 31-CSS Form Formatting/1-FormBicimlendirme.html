@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        /*      
+            input[type=text],sinput[type=email] {
+            color: rgb(63, 9, 65);
+            background-color: bisque;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            font-style: italic;
+        }
+*/
+        .formelemanı {
+            color: blue;
+            font-size: 14px;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: chocolate;
+            border-color: chartreuse;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #formkutusu {
+            border: 2px solid darkmagenta;
+            border-radius: 10px;
+            background-color: darksalmon;
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            color: blanchedalmond;
+            width: 80%;
+        }
+
+        .form {
+            margin: auto;
+        }
+
+        input {
+            border: 2px darkviolet solid;
+            color: darkblue;
+            padding: 5px;
+            margin: 5px;
+            background-color: plum;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        Ad Soyad: <input class="formelemanı" type="text">
+        <br>
+        Email: <input class="formelemanı" type="email">
+        <br>
+        Mesaj: <textarea class="formelemanı" cols="30" rows="4">
+
+        </textarea>
+        <br>
+        <input class="formelemanı" type="submit"><input class="formelemanı" type="reset">
+    </form>
+    <br>
+    <hr>
+
+    <!--Tablo ile Form Oluşturma-->
+
+    <div id="formkutusu">
+        <form>
+            <table class="form">
+                <tr>
+                    <td>Ad Soyad:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Yaş:</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit"><input type="reset"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
