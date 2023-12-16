@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        #kutu {
+            border-style: double;
+            border-color: red;
+            border-width: 10px;
+        }
+
+        /* Yukarıdaki işlemlerin kısaltılmış hali */
+        #kutu1 {
+            border: double 10px red;
+        }
+
+        /* Her Kenar için ayrı işlemler yapmak istersek*/
+        #kutu2 {
+            border-style: solid none ;
+            /*(üstpx)(sağ0px)(altpx)(solpx)*/
+            border-color: red blue green gold;
+            /*(üstpx)(sağ0px)(altpx)(solpx)*/
+            border-width: 10px 20px 30px 40px;
+            /*(üstpx)(sağ0px)(altpx)(solpx)*/
+        }
+
+        /* Kutu Kenarının yuvartılması*/
+        #kutu3{
+            border:5px solid blue;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="kutu">Eğitimlerimiz</h1><br>
+    <h1 id="kutu1">Temel Bilişim</h1><br>
+    <h1 id="kutu2">Eğitimlerim</h1><br><hr>
+    <h1 id="kutu3">Eğitimlerim</h1>
+</body>
+
+</html>

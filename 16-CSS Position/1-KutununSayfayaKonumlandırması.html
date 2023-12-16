@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        h1 {
+            color: red;
+            text-align: center;
+        }
+
+        /* position: relative; etiketi*/
+        #buyuk1 {
+            border: 3px solid red;
+            background-color: gold;
+            width: 300px;
+            height: 200px;
+        }
+
+        #kucuk1 {
+            border: 3px solid blue;
+            background-color: green;
+            width: 200px;
+            height: 100px;
+            position: relative;
+            top: 30px;
+            left: 50px;
+        }
+
+        /* position: absolute; etiketi*/
+        #buyuk3 {
+            border: 3px solid red;
+            background-color: gold;
+            width: 300px;
+            height: 200px;
+            position: relative;
+        }
+
+        #kucuk3 {
+            border: 3px solid blue;
+            background-color: green;
+            width: 200px;
+            height: 100px;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        /* position: fixed; etiketi*/
+        #buyuk2 {
+            border: 3px solid red;
+            background-color: gold;
+            width: 300px;
+            height: 200px;
+        }
+
+        #kucuk2 {
+            border: 3px solid blue;
+            background-color: green;
+            width: 200px;
+            height: 100px;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        /* position: sticky; - etiketi */
+        #kutu {
+            background-color: red;
+            width: 100%;
+            height: 100px;
+            position: sticky;
+            top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>position: relative; - etiketi</h1>
+    <div id="buyuk1">
+
+    </div>
+    <div id="kucuk1">
+
+    </div><br><br>
+    <hr>
+    <h1>position: absolute; - etiketi</h1>
+    <div id="buyuk3">
+        <div id="kucuk3">
+
+        </div>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    <h1>position: fixed; - etiketi</h1>
+    <div id="buyuk2">
+
+    </div>
+    <div id="kucuk2">
+
+    </div><br><br><br><br><br>
+    <hr>
+    <h1>position: sticky; - etiketi</h1>
+    <div id="kutu">
+        Position Sticky Nedir ve Nasıl Kullanılır ? Position: sticky kaydırma çubuklarını takip eder ve istenilen
+        pozisyon yakalandığında nesneyi o noktada sabitler. Örneğin bir nesne için yukarıdan 0 konumuna geldiğimiz anda
+        nesnenin sabitlenmesini isteyebiliriz. Genelde menüler için sticky postion kullanılır.
+    </div>
+
+</body>
+
+</html>

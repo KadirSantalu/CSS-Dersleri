@@ -1,0 +1,66 @@
+.kapsayici {
+    width: 700px;
+    height: 500px;
+    background: #ffeb008a;
+
+}
+
+.kutu1 {
+    width: 100px;
+    height: 40px;
+    background: #ff7600d1;
+    transition: all 2s ease;
+    margin-bottom: 20px;
+}
+
+.kutu2 {
+    width: 100px;
+    height: 40px;
+    background: #ff7600d1;
+    transition: all 2s ease-in;
+    margin-bottom: 20px;
+}
+
+.kutu3 {
+    width: 100px;
+    height: 40px;
+    background: #ff7600d1;
+    transition: all 2s ease-out;
+    margin-bottom: 20px;
+}
+
+.kutu4 {
+    width: 100px;
+    height: 40px;
+    background: #ff7600d1;
+    transition: all 2s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.kutu5 {
+    width: 100px;
+    height: 40px;
+    background: #ff7600d1;
+    transition: all 2s linear;
+    margin-bottom: 20px;
+}
+
+.kapsayici:hover .kutu1 {
+    width: 300px;
+}
+
+.kapsayici:hover .kutu2 {
+    width: 300px;
+}
+
+.kapsayici:hover .kutu3 {
+    width: 300px;
+}
+
+.kapsayici:hover .kutu4 {
+    width: 300px;
+}
+
+.kapsayici:hover .kutu5 {
+    width: 300px;
+}

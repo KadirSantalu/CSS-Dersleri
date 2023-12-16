@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        h1 {
+            color: red;
+            text-align: center;
+        }
+
+        /* Etiketin normal davranışı */
+        .bir {
+            list-style-type: none;
+            border: 2px solid red;
+        }
+
+        /* Block etiketi inline etikete çevirme */
+        .iki {
+            list-style-type: none;
+            border: 2px solid red;
+            display: inline;
+        }
+
+        /* İnline etiketi blok etikete çevirme */
+        #span {
+            border: 2px solid red;
+            display: block;
+        }
+
+        /* İnline-blok özelliği */
+        div{
+            border: 1px solid red;
+            display: inline-block;
+            width: 25%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Etiketin normal davranışı</h1>
+    <ul>
+        <li class="bir">asdasdas</li>
+        <li class="bir">asdasdas</li>
+        <li class="bir">asdasdas</li>
+        <li class="bir">asdasdas</li>
+    </ul><br>
+    <hr>
+
+    <h1>Block etiketi inline etikete çevirme</h1>
+    <ul>
+        <li class="iki">asdasdas</li>
+        <li class="iki">asdasdas</li>
+        <li class="iki">asdasdas</li>
+        <li class="iki">asdasdas</li>
+    </ul><br>
+    <hr>
+
+    <h1>İnline etiketi blok etikete çevirme</h1>
+    <span id="span">asdsadasdasdasd</span>
+    <br><hr>
+
+    <h1>İnline-blok özelliği</h1>
+    <div>
+        1
+    </div>
+    <div>
+        2
+    </div>
+    <div>
+        3
+    </div> 
+</body>
+
+</html>

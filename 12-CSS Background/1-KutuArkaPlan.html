@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            color: red;
+        }
+
+        /* Arka plan rengi için */
+        #kutu1 {
+            border: 2px solid red;
+            background-color: gold;
+        }
+
+        /* Arka plan resmi için */
+        #kutu2 {
+            border: 2px solid red;
+            width: 1000px;
+            height: 1000px;
+            margin: auto;
+            margin-top: 50px;
+            background-image: url(../resimler/bayrak.jpg);
+        }
+
+        /* Arka plan resminin ayarlanması */
+        #kutu3 {
+            border: 2px solid red;
+            width: 1000px;
+            height: 1000px;
+            margin: auto;
+            margin-top: 50px;
+            background-image: url(../resimler/bayrak.jpg);
+            background-size: 700px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        /* Arka plan resminin kaydırılıp kaydırılmayacağı */
+        #kutu4 {
+            border: 2px solid red;
+            width: 1000px;
+            height: 1000px;
+            margin: auto;
+            margin-top: 50px;
+            background-image: url(../resimler/bayrak.jpg);
+            background-attachment: fixed;
+        }
+
+        /* Arka plan resmini ile arka plan rengini birleştirme */
+        #kutu5 {
+            border: 2px solid red;
+            width: 1000px;
+            height: 1000px;
+            margin: auto;
+            margin-top: 50px;
+            background-image:
+                linear-gradient(rgba(102, 255.102, 0.7), rgba(230, 255, 230, 0.7)),
+                url(../resimler/bayrak.jpg);
+            background-position: center;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>Arka plan rengi için </h1>
+    <div id="kutu1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium impedit mollitia dicta, quod perspiciatis
+        voluptatem nulla at culpa! Eius accusamus hic dolorum minima quae tempora qui sint dicta dolore deleniti?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium impedit mollitia dicta, quod perspiciatis
+        voluptatem nulla at culpa! Eius accusamus hic dolorum minima quae tempora qui sint dicta dolore deleniti?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium impedit mollitia dicta, quod perspiciatis
+        voluptatem nulla at culpa! Eius accusamus hic dolorum minima quae tempora qui sint dicta dolore deleniti?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium impedit mollitia dicta, quod perspiciatis
+        voluptatem nulla at culpa! Eius accusamus hic dolorum minima quae tempora qui sint dicta dolore deleniti?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium impedit mollitia dicta, quod perspiciatis
+        voluptatem nulla at culpa! Eius accusamus hic dolorum minima quae tempora qui sint dicta dolore deleniti?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium impedit mollitia dicta, quod perspiciatis
+        voluptatem nulla at culpa! Eius accusamus hic dolorum minima quae tempora qui sint dicta dolore deleniti?
+    </div>
+    <hr>
+    <h1>Arka plan resmi için</h1>
+    <div id="kutu2">
+
+    </div>
+    <hr>
+    <h1>Arka plan resminin kaydırılıp kaydırılmayacağı</h1>
+    <div id="kutu4">
+
+    </div>
+    <hr>
+    <h1>Arka plan resminin Ayarlanması</h1>
+    <div id="kutu3">
+
+    </div>
+    <hr>
+    <h1>Arka plan resmi ile renk birlikte</h1>
+    <div id="kutu5">
+
+    </div>
+    <hr>
+
+</body>
+
+</html>

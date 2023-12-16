@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .yontem1{
+            max-width: 300px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient:vertical ;
+        }
+
+        .yontem2{
+            position: relative;
+            height: 54px;
+            max-width: 300px;
+            overflow: hidden;
+        }
+
+        .yontem2::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 50%;
+            height: 15px;
+            background:linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,1)50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="yontem1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid odit unde quia blanditiis
+        atque expedita voluptatem ut asperiores rerum repellendus quam, pariatur beatae eligendi earum recusandae non
+        consequuntur obcaecati omnis.
+    </div>
+<br><br>
+    <div class="yontem2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab excepturi corrupti unde quas fugit consequuntur
+        exercitationem eaque? Explicabo, fugit commodi. Quisquam error repellendus, excepturi officiis enim unde
+        voluptates ad assumenda.
+    </div>
+</body>
+
+</html>

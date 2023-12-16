@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: lime;
+            margin: 50px auto;
+            border: 5px solid tomato;
+        }
+
+        .uzun {
+            outline-style: dashed;
+            outline-width: 10px;
+            outline-color: blue;
+            outline-offset: 10px;/* dışş çizgi ile iç çizgi arasındaki mesafe*/
+        }
+
+        /* yukarıdaki kodun kısaltılmış hali*/
+        .kisa {
+            outline: 10px dashed blue;
+            outline-offset: 10px;/* dışş çizgi ile iç çizgi arasındaki mesafe*/
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="uzun">outline kodunun uzun yazılmış hali</div>
+    <br>
+    <hr><br>
+    <div class="kisa">outline kodunun kısa yazılmış hali</div>
+
+</body>
+
+</html>
